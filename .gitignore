@@ -1,0 +1,92 @@
+# ATLAS - .gitignore
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv/
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+.settings/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Models (large files - keep structure but ignore weights)
+modelos/*.npz
+modelos/*.h5
+modelos/*.keras
+modelos/*/
+!modelos/.gitkeep
+
+# Logs
+logs/
+*.log
+
+# Dataset (generated, too large for git)
+dataset/
+*.png
+*.jpg
+*.jpeg
+!docs/images/
+
+# SUMO temporary files
+*.xml.bak
+temp_screenshot.png
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+
+# Coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+
+# Documentation build
+docs/_build/
+
+# Secrets (never commit!)
+.env
+*.pem
+*.key
+secrets.yaml

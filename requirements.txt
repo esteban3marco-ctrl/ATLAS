@@ -1,0 +1,25 @@
+# ATLAS - Traffic Light AI System
+# Dependencias del proyecto
+
+# Core
+numpy>=1.24.0
+scipy>=1.10.0
+
+# Deep Learning
+tensorflow>=2.13.0
+
+# Computer Vision
+opencv-python>=4.8.0
+ultralytics>=8.0.0
+Pillow>=10.0.0
+
+# SUMO Traffic Simulator
+traci>=1.18.0
+sumolib>=1.18.0
+
+# Utilities
+matplotlib>=3.7.0
+pyyaml>=6.0
+
+# Optional: GPU Support (uncomment if you have NVIDIA GPU)
+# tensorflow-gpu>=2.13.0
